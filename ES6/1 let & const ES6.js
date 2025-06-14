@@ -1,10 +1,12 @@
+// var: Function-scoped and can be reassigned. Avoid using due to hoisting issues and redeclaration risks.
+//      var allows redeclaration within the same scope, which can lead to unintended overwrites.
+// let: Block-scoped and can be reassigned, making it safer than var.
+// const: Block-scoped and cannot be reassigned, ensuring constant values.
 
-// var:   Can be reassigned and has function scope. Avoid using due to potential issues with hoisting.
-// let:   Can be reassigned and has block scope, making it safer than var.
-// const: Can't' be reassigned, ensuring constant values.
-// Use let for variables that change and 
-// const for fixed values to write safer, more predictable code!
-
+// Best practices:
+// - Use 'let' for variables that may change.
+// - Use 'const' for fixed values to write safer, more predictable code.
+// - let and const do not allow redeclaration in the same scope
 
 var n = 5;
 var n = 9;
