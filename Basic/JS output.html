@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+<!-- To access an HTML element, you can use the document.getElementById(id) method
+  -> use the innerHTML property to change the HTML content of the HTML element
+  ->  use the innerText property to change the inner text of the HTML element
+ 
+  document.getElementById("element_id").property = "new_value";
+-->
+<script>
+document.getElementById("demo").innerHTML = "<h2>Hello World</h2>";
+ document.getElementById("demo").innerText = "Hello js";
+</script>
+
+</body>
+</html>
+
+<!-- 
+document	Refers to the HTML document (web page).
+getElementById("demo")	Selects the element with the id="demo".
+.innerHTML	Refers to the HTML content inside the selected element.
+= "<h2>Hello World</h2>"	Assigns new HTML content (an <h2> heading with text). 
+
+document.getElementById("title").innerText = "Welcome!";
+// Changes only the text content (no HTML tags are rendered)
+
+document.getElementById("box").style.color = "red";
+// Changes the CSS color of the element with id="box"
+
+document.getElementById("btn").disabled = true;
+// Disables a button
+-->
