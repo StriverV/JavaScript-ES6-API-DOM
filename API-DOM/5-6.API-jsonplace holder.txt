@@ -1,0 +1,53 @@
+✅ What is an API?
+
+* API = *Application Programming Interface*
+* It lets two programs talk.
+* You send a **request**, and you get a **response** (usually in JSON format).
+
+---
+
+✅ Real-life Example:
+
+* Like ordering food at a restaurant.
+
+  * You → request food.
+  * Waiter → sends request to kitchen.
+  * Kitchen → makes food.
+  * Waiter → brings back your food (response).
+
+---
+
+✅ What is `fetch()`?
+
+* It's a JavaScript function to **get data from an API**.
+* Used a lot in real-world apps (like weather, user profiles, Google login, etc.).
+
+---
+
+✅ How fetch() works (step-by-step):
+
+fetch("https://jsonplaceholder.typicode.com/users")
+  .then(res => res.json())       // Converts response to JSON
+  .then(data => console.log(data))  // Shows the actual data
+  .catch(error => console.error(error))  // Catches errors
+```
+
+---
+
+### ✅ JSON = JavaScript Object Notation
+
+* A format to send/receive data.
+* Looks like this:
+
+```json
+[
+  { "id": 1, "name": "Leanne Graham" },
+  { "id": 2, "name": "Ervin Howell" }
+]
+
+### ✅ Loop through JSON
+
+
+for (let user of data) {
+   console.log(user.name);
+}

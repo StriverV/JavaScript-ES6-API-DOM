@@ -1,0 +1,66 @@
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.cart-container
+{
+   width: 50%;
+   margin: auto;
+   box-shadow: 4px 4px 8px palevioletred;
+   background-color: #ece3e4;
+   border-radius: 8px;
+   text-align: center;
+}
+
+
+.productContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* grid-area: 15px; */
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.card
+{
+    border :1px solid rgb(225, 148, 148);
+    padding: 10px;
+}
+
+.card-img
+{
+    width: 150px;
+    /* margin: auto; */
+
+}
+/* .user {
+  width: 200px;
+  padding: 15px;
+  margin: 10px;
+  border: 1px solid rgb(197, 71, 84);
+  background-color: #fff6f7;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+
+
+.comment-container {
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.child {
+  margin: 5px 0;
+  background: #eee;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+ */

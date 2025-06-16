@@ -1,0 +1,23 @@
+.box
+{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: 1px solid green;
+}
+
+.box-container
+{
+    display: flex;
+    gap:15px;
+    flex-wrap: wrap;
+}
+
+
+/* 3 */
+
+input
+{
+    padding: 10px;
+    width: ;
+}
